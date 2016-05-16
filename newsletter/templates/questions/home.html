@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+        <li>
+            {{ instance.text }}
+            <ul>
+                {% for ans in question.answer_set.all %}
+                    <li>{{ ans.text }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+
+
+{% endblock %}

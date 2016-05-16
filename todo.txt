@@ -1,0 +1,12 @@
+1.- products
+    -->single products(detail view)
+        --> social sharing
+    --> list products
+    --> inventory control
+    --> search products
+2.- checkout
+    --Shoping cart
+    -->  Auth users & guest addres
+    --> shoping & billing address
+3.- payment
+    --> integration with Brantree
